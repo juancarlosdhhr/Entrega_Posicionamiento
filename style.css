@@ -1,27 +1,29 @@
-/* Estilos generales */
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     }
   
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8; /* Cambiado para coincidir con los estilos previos */
-    color: #c92f2f; /* Cambiado para coincidir con los estilos previos */
+    background-color: white; 
+    color: rgb(236, 227, 227); 
     margin: 0;
     padding: 0;
     min-height: 100vh;
   }
   header img {
-width: 100px;
+width: 150px;
 height: auto;
 
   }
   
-  /* Estilos para el encabezado */
+ 
   header {
+    font-family:  'Times New Roman', Times, serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,12 +32,12 @@ height: auto;
     color: #fff;
     padding: 20px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
   }
   
-  /* Estilos para el contenido principal */
+  
   main {
-    padding-top: 150px; /* Ajusta según la altura del encabezado */
+    padding-top: 150px; 
   }
   
   .content {
@@ -46,17 +48,19 @@ height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Estilos para la barra lateral */
+  
   .sidebar {
     position: absolute;
-    top: 300px; /* Ajusta según la altura del encabezado */
+    font-size: 15px;
+    top: 320px; 
     right: 20px;
-    width: 200px;
-    background-color: #f4f4f4;
+    width: 250px;
+    background-color: #962e2e;
     padding: 20px;
   }
+
   
-  /* Estilos para las características */
+ 
   .productos {
     margin-top: 20px;
     color: #141212;
@@ -66,16 +70,18 @@ height: auto;
     margin-bottom: 20px;
   }
   
-  /* Estilos para los botones */
+ 
   button {
-    background-color: #8b3526;
+    background-color: #e6cbcb;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 20px;
+    margin-top: 1%;
+    padding: 5px 10px;
     cursor: pointer;
+    
   }
   
-  /* Estilos para el pie de página */
+  
   footer {
     position: fixed;
     bottom: 0;
@@ -89,18 +95,24 @@ height: auto;
   
 
 
-  /* Estilos para el contenido principal */
+
 main {
     position: relative;
   }
   
-  /* Estilos para las características */
+  
   .productos {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-     transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0;
   }
   
+  img {
+width: 200px;
+height: 100;
+
+  }
+ 
  
