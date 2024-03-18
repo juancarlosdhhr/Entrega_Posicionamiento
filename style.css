@@ -1,0 +1,106 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Cambiado para coincidir con los estilos previos */
+    color: #c92f2f; /* Cambiado para coincidir con los estilos previos */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  header img {
+width: 100px;
+height: auto;
+
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding-top: 150px; /* Ajusta según la altura del encabezado */
+  }
+  
+  .content {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #962e2e;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la barra lateral */
+  .sidebar {
+    position: absolute;
+    top: 300px; /* Ajusta según la altura del encabezado */
+    right: 20px;
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* Estilos para las características */
+  .productos {
+    margin-top: 20px;
+    color: #141212;
+  }
+  
+  .section-vinos {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #8b3526;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: rgb(223, 223, 223);
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+
+
+  /* Estilos para el contenido principal */
+main {
+    position: relative;
+  }
+  
+  /* Estilos para las características */
+  .productos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    margin: 0;
+  }
+  
+ 
